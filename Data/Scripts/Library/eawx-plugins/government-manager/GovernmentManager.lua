@@ -1,6 +1,7 @@
 require("deepcore/std/class")
 require("eawx-plugins/government-manager/GovernmentNewRepublic")
 require("eawx-plugins/government-manager/GovernmentEmpire")
+require("eawx-plugins/government-manager/GovernmentProteus")
 require("eawx-plugins/government-manager/GovernmentFavour")
 require("eawx-plugins/government-manager/GovernmentHutts")
 require("eawx-plugins/government-manager/GovernmentEotH")
@@ -18,6 +19,9 @@ function GovernmentManager:new(gc, absorb, dark_empire, id, dummy_lifecycle_hand
     self.FAVOUR = GovernmentFavour(gc)
     self.HUTTGOV = GovernmentHutts(gc, id)
     self.EOTHGOV = GovernmentEotH(gc, self.FAVOUR.FavourTables["EMPIREOFTHEHAND"])
+
+    -- Project Proteus
+    self.PROTEUSGOV = GovernmentProteus(gc, self.EMPIREGOV)
 
     self.human = Find_Player("local")
     self.HuttPlayer = Find_Player("Hutt_Cartels")
@@ -43,6 +47,7 @@ end
 function GovernmentManager:update()
     self.NRGOV:update()
     self.EMPIREGOV:update()
+    self.PROTEUSGOV:update()
     self.SHIPMARKET:update()
     self.FAVOUR:update()
     self.HUTTGOV:update()
