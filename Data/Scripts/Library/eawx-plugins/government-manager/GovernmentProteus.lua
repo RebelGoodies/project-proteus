@@ -108,8 +108,6 @@ function GovernmentProteus:gamble_manager(unit_type)
 
     local planet_object = dummy_object.Get_Planet_Location()
     local unit_to_spawn = Find_Object_Type(src_data[posnr])
-    if TestValid(unit_to_spawn) then
-        Spawn_Unit(unit_to_spawn, planet_object, self.PlayerImperial_Proteus)
-    end
+    Spawn_Unit(unit_to_spawn, planet_object, self.PlayerImperial_Proteus)
     dummy_object.Despawn()
 end
