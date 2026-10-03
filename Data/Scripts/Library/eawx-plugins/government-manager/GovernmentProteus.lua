@@ -95,7 +95,7 @@ function GovernmentProteus:kuat_battlecruisers(choice)
     --Logger:trace("entering GovernmentProteus:kuat_battlecruisers")
     self:Market_Update("KUAT_BC")
     local battlecruiser = string.gsub(choice, "KUAT_BC_CHOICE_", "")
-    if TestValid(Find_Object_Type(battlecruiser)) then
+    if TestValid(Find_Object_Type(battlecruiser)) then -- Project Proteus Debug ; comment it out for release
         self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type(battlecruiser))
     end
 end
@@ -112,7 +112,9 @@ function GovernmentProteus:gamble_manager(unit_type)
 
     local planet_object = dummy_object.Get_Planet_Location()
     local unit_to_spawn = Find_Object_Type(src_data[posnr])
-    Spawn_Unit(unit_to_spawn, planet_object, self.PlayerImperial_Proteus)
+    if unit_to_spawn ~= nil then -- Project Proteus Debug ; comment it out for release
+        Spawn_Unit(unit_to_spawn, planet_object, self.PlayerImperial_Proteus)
+    end
     dummy_object.Despawn()
 end
 
