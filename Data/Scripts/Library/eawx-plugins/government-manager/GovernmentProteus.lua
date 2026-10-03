@@ -39,7 +39,7 @@ function GovernmentProteus:new(gc, GovEmpire, ShipMarket)
 
     -- Append to GovernmentEmpire hero SSD tables
     for key, value in pairs(self.hero_ssd_table) do
-        GovEmpire.hero_ssd_table[key] = value
+        self.GovEmpire.hero_ssd_table[key] = value
     end
 
     crossplot:subscribe("DASTA_FIGHTER_CHOICE_OPTION", self.dasta_fighters, self)
