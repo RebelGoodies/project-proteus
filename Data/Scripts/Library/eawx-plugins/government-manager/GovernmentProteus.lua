@@ -160,8 +160,11 @@ function GovernmentProteus:UpdateProteusShipmarketDisplay()
     government_display_event.Add_Dialog_Text("TEXT_NONE")
     government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_CSA_LIST_01")
 
-    for i, ship in ipairs(SortKeysByElement(self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list,"order","asc")) do
-        local ship_data = self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list[ship]
+    local ship_market = self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"]
+    local ship_list = SortKeysByElement(ship_market.list,"order","asc")
+
+    for i, ship in ipairs(ship_list) do
+        local ship_data = ship_market.list[ship]
         if ship_data.amount > 0 and ship_data.locked == false and ship_data.gc_locked == false then
             government_display_event.Add_Dialog_Text(ship_data.readable_name .." : "..tostring(ship_data.amount) .." - [ ".. tostring(ship_data.chance/10) .."%% ]")
         end
@@ -170,8 +173,8 @@ function GovernmentProteus:UpdateProteusShipmarketDisplay()
     government_display_event.Add_Dialog_Text("TEXT_NONE")
     government_display_event.Add_Dialog_Text("None on the market:")
 
-    for i, ship in ipairs(SortKeysByElement(self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list,"order","asc")) do
-        local ship_data = self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list[ship]
+    for i, ship in ipairs(ship_list) do
+        local ship_data = ship_market.list[ship]
         if ship_data.amount == 0 and ship_data.locked == false and ship_data.gc_locked == false then
             government_display_event.Add_Dialog_Text(ship_data.readable_name .." : [ ".. tostring(ship_data.chance/10) .."%% ]")
         end
@@ -180,8 +183,8 @@ function GovernmentProteus:UpdateProteusShipmarketDisplay()
     government_display_event.Add_Dialog_Text("TEXT_NONE")
     government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_CSA_LIST_MODIFIERS")
 
-    for i, ship in ipairs(SortKeysByElement(self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list,"order","asc")) do
-        local ship_data = self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list[ship]
+    for i, ship in ipairs(ship_list) do
+        local ship_data = ship_market.list[ship]
         if string.len(ship_data.text_requirement) ~= 0 then
             government_display_event.Add_Dialog_Text(ship_data.readable_name ..": ".. ship_data.text_requirement)
         end
