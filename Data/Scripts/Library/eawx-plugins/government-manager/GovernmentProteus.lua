@@ -9,9 +9,11 @@ GovernmentProteus = class()
 
 ---@param gc GalacticConquest
 ---@param GovEmpire GovernmentEmpire
-function GovernmentProteus:new(gc, GovEmpire)
+---@param ShipMarket ShipMarket
+function GovernmentProteus:new(gc, GovEmpire, ShipMarket)
     self.gc = gc
     self.GovEmpire = GovEmpire
+    self.SHIPMARKET = ShipMarket
     self.PlayerImperial_Proteus = Find_Player("Imperial_Proteus")
 
     self.production_finished_event = gc.Events.GalacticProductionFinished
@@ -22,7 +24,9 @@ function GovernmentProteus:new(gc, GovEmpire)
         ["DUMMY_RECRUIT_GROUP_DELURIN"] = "DRAGON",
         ["DUMMY_RECRUIT_GROUP_WESSEX"] = "WESSEX",
     }
+
     self.proteus_markets = {"KUAT"}
+    self.market_adjustments = require("ShipMarketAdjustmentsLibrary")
 
     -- Project Proteus specific hero SSDs
     self.hero_ssd_table = {
@@ -64,9 +68,9 @@ end
 function GovernmentProteus:on_production_finished(planet, object_type_name)
     --Logger:trace("entering GovernmentProteus:on_production_finished")
     local event = self.market_updates[object_type_name]
-    if event ~= nil then
+    if event then
         if self.proteus_markets[GlobalValue.Get("PROTEUS_GROUP_NAME")] then
-            crossplot:publish("UPDATE_MARKET", event)
+            self:Market_Update(event)
         end
     elseif string.find(object_type_name, "DUMMY_RANDOM_UNIT_") then
         self:gamble_manager(object_type_name)
@@ -89,7 +93,7 @@ end
 ---@param choice string Assumes all CAPS
 function GovernmentProteus:kuat_battlecruisers(choice)
     --Logger:trace("entering GovernmentProteus:kuat_battlecruisers")
-    crossplot:publish("UPDATE_MARKET", "KUAT_BC")
+    self:Market_Update("KUAT_BC")
     local battlecruiser = string.gsub(choice, "KUAT_BC_CHOICE_", "")
     if TestValid(Find_Object_Type(battlecruiser)) then
         self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type(battlecruiser))
@@ -110,4 +114,76 @@ function GovernmentProteus:gamble_manager(unit_type)
     local unit_to_spawn = Find_Object_Type(src_data[posnr])
     Spawn_Unit(unit_to_spawn, planet_object, self.PlayerImperial_Proteus)
     dummy_object.Despawn()
+end
+
+---@param tag string
+function GovernmentProteus:Market_Update(tag)
+    --Logger:trace("entering GovernmentProteus:Market_Update")
+    if not self.market_adjustments[tag] then
+        return
+    end
+
+    if self.market_adjustments[tag].adjustment_lists then
+        self.SHIPMARKET:adjust_ship_chance(self.market_adjustments[tag].adjustment_lists)
+    end
+    if self.market_adjustments[tag].lock_lists then
+        self.SHIPMARKET:lock_or_unlock_options(self.market_adjustments[tag].lock_lists)
+    end
+    if self.market_adjustments[tag].requirement_lists then
+        self.SHIPMARKET:adjust_ship_requirements(self.market_adjustments[tag].requirement_lists)
+    end
+end
+
+function GovernmentProteus:UpdateProteusShipmarketDisplay()
+    --Logger:trace("entering GovernmentProteus:UpdateProteusShipmarketDisplay")
+    local current_proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
+
+    if not self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus] then
+        return
+    end
+
+    local plot = Get_Story_Plot("Conquests\\Player_Agnostic_Plot.xml")
+    local government_display_event = plot.Get_Event("Government_Display")
+
+    government_display_event.Set_Reward_Parameter(1, "IMPERIAL_PROTEUS")
+    -- government_display_event.Clear_Dialog_Text()
+
+    government_display_event.Add_Dialog_Text("TEXT_NONE")
+    government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
+    government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_PROTEUS_MARKET_"..tostring(current_proteus))
+    government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
+
+    government_display_event.Add_Dialog_Text("TEXT_NONE")
+
+    government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_PROTEUS_MARKET_OVERVIEW_"..tostring(current_proteus))
+    government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
+    government_display_event.Add_Dialog_Text("TEXT_NONE")
+    government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_CSA_LIST_01")
+
+    for i, ship in ipairs(SortKeysByElement(self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list,"order","asc")) do
+        local ship_data = self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list[ship]
+        if ship_data.amount > 0 and ship_data.locked == false and ship_data.gc_locked == false then
+            government_display_event.Add_Dialog_Text(ship_data.readable_name .." : "..tostring(ship_data.amount) .." - [ ".. tostring(ship_data.chance/10) .."%% ]")
+        end
+    end
+
+    government_display_event.Add_Dialog_Text("TEXT_NONE")
+    government_display_event.Add_Dialog_Text("None on the market:")
+
+    for i, ship in ipairs(SortKeysByElement(self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list,"order","asc")) do
+        local ship_data = self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list[ship]
+        if ship_data.amount == 0 and ship_data.locked == false and ship_data.gc_locked == false then
+            government_display_event.Add_Dialog_Text(ship_data.readable_name .." : [ ".. tostring(ship_data.chance/10) .."%% ]")
+        end
+    end
+
+    government_display_event.Add_Dialog_Text("TEXT_NONE")
+    government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_CSA_LIST_MODIFIERS")
+
+    for i, ship in ipairs(SortKeysByElement(self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list,"order","asc")) do
+        local ship_data = self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list[ship]
+        if string.len(ship_data.text_requirement) ~= 0 then
+            government_display_event.Add_Dialog_Text(ship_data.readable_name ..": ".. ship_data.text_requirement)
+        end
+    end
 end
