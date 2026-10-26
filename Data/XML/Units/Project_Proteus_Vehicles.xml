@@ -45,7 +45,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Tracked</Type>
-		<CategoryMask> Vehicle | AntiAir </CategoryMask>
+		<CategoryMask> Vehicle | AntiAirGunship | AntiAirSpeeder </CategoryMask>
 		<Property_Flags>DoKite</Property_Flags>
 		<Weather_Category>Tracked</Weather_Category>
 		<Visible_To_Enemies_When_Empty>true</Visible_To_Enemies_When_Empty>
@@ -386,7 +386,7 @@
 		<Attack_Move_Response_Range>0.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<Targeting_Priority_Set>AntiVehicleStructure</Targeting_Priority_Set>
+		<Targeting_Priority_Set>ArtilleryMissile</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 
 		<Overall_Length>60.0</Overall_Length>

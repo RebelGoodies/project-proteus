@@ -517,8 +517,6 @@
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 
 		<Abilities SubObjectList="Yes">
-			<Laser_Defense_Ability Name="CR90_Laser_Defense"> <!-- Empty so doesn't inherit -->
-            </Laser_Defense_Ability>
 		</Abilities>
 
 	</SpaceUnit>
@@ -652,8 +650,6 @@
 		</Unit_Abilities_Data>
 		
 		<Abilities SubObjectList="Yes">
-			<Laser_Defense_Ability Name="CustomsCorvette_Laser_Defense"> <!-- Empty so doesn't inherit -->
-            </Laser_Defense_Ability>
 		</Abilities>
 		
 	</SpaceUnit>
@@ -8612,17 +8608,19 @@
 	</SpaceUnit>
 
 	<SpaceUnit Name="Gamma_Shuttle_B">
-	<Variant_Of_Existing_Type> Gamma_Shuttle_A </Variant_Of_Existing_Type>
-	<Text_ID>TEXT_UNIT_GAMMASHUTTLEB</Text_ID>
-	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_GUNSHIPLIGHT</Encyclopedia_Unit_Class>
-	TEXT_TOOLTIP_GAMMASHUTTLEB
-	TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-	TEXT_TOOLTIP_BETASHUTTLE_HULL
-	TEXT_TOOLTIP_GAMMASHUTTLE_SHIELD
-	TEXT_TOOLTIP_GAMMASHUTTLE_MOVE 
-	TEXT_TOOLTIP_GAMMASHUTTLE_WEAP2
-	TEXT_TOOLTIP_GAMMASHUTTLE_WEAP3
-	TEXT_TOOLTIP_GAMMASHUTTLE_WEAP4
+		<Variant_Of_Existing_Type> Gamma_Shuttle_A </Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_GAMMASHUTTLEB</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_GUNSHIPLIGHT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_GAMMASHUTTLEB
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_BETASHUTTLE_HULL
+		TEXT_TOOLTIP_GAMMASHUTTLE_SHIELD
+		TEXT_TOOLTIP_GAMMASHUTTLE_MOVE
+		TEXT_TOOLTIP_GAMMASHUTTLE_WEAP2
+		TEXT_TOOLTIP_GAMMASHUTTLE_WEAP3
+		TEXT_TOOLTIP_GAMMASHUTTLE_WEAP4
+		</Encyclopedia_Text>
 
 		<HardPoints>
 		HP_GammaBeta_Turbo_00, HP_GammaBeta_Turbo_01, HP_GammaBeta_Turbo_02, HP_GammaBeta_Turbo_03, HP_GammaBeta_AssConc, HP_GammaBeta_Ion
@@ -8632,15 +8630,17 @@
 	</SpaceUnit>
 
 	<SpaceUnit Name="Gamma_Personnel_Carrier">
-	<Variant_Of_Existing_Type> Gamma_Shuttle_A </Variant_Of_Existing_Type>
-	<Text_ID>TEXT_UNIT_GAMMAPERSONNELCARRIER</Text_ID>
-	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_GUNSHIPLIGHT</Encyclopedia_Unit_Class>
-	TEXT_TOOLTIP_GAMMAPERSONNELCARRIER
-	TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-	TEXT_TOOLTIP_BETASHUTTLE_HULL
-	TEXT_TOOLTIP_GAMMAPERSONNELCARRIER_SHIELD
-	TEXT_TOOLTIP_GAMMAPERSONNELCARRIER_MOVE 
-	TEXT_TOOLTIP_GAMMASHUTTLE_WEAP1
+		<Variant_Of_Existing_Type> Gamma_Shuttle_A </Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_GAMMAPERSONNELCARRIER</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_GUNSHIPLIGHT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_GAMMAPERSONNELCARRIER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_BETASHUTTLE_HULL
+		TEXT_TOOLTIP_GAMMAPERSONNELCARRIER_SHIELD
+		TEXT_TOOLTIP_GAMMAPERSONNELCARRIER_MOVE
+		TEXT_TOOLTIP_GAMMASHUTTLE_WEAP1
+		</Encyclopedia_Text>
 
 		<Shield_Armor_Type>ShieldS_Gunship</Shield_Armor_Type>
 		<Shield_Points>175</Shield_Points>
@@ -8657,19 +8657,21 @@
 	</SpaceUnit>
 
 	<SpaceUnit Name="Beta_Torpedo_Boat">
-	<Variant_Of_Existing_Type> Beta_Shuttle </Variant_Of_Existing_Type>
-	<Icon_Name>i_button_betatorpedo.tga</Icon_Name>
-	<Text_ID>TEXT_UNIT_BETASHUTTLE_TORPEDO</Text_ID>
-	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_GUNSHIPLIGHT</Encyclopedia_Unit_Class>
-	TEXT_TOOLTIP_BETASHUTTLE_TORPEDO
-	TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-	TEXT_TOOLTIP_BETASHUTTLE_HULL
-	TEXT_TOOLTIP_BETASHUTTLE_TORPEDO_SHIELD
-	TEXT_TOOLTIP_BETASHUTTLE_TORPEDO_MOVE 
-	TEXT_TOOLTIP_BETASHUTTLE_WEAP1
-	TEXT_TOOLTIP_BETASHUTTLE_WEAP2
-	TEXT_TOOLTIP_BETASHUTTLE_WEAP3
-	TEXT_TOOLTIP_BETASHUTTLE_WEAP4
+		<Variant_Of_Existing_Type> Beta_Shuttle </Variant_Of_Existing_Type>
+		<Icon_Name>i_button_betatorpedo.tga</Icon_Name>
+		<Text_ID>TEXT_UNIT_BETASHUTTLE_TORPEDO</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_GUNSHIPLIGHT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_BETASHUTTLE_TORPEDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_BETASHUTTLE_HULL
+		TEXT_TOOLTIP_BETASHUTTLE_TORPEDO_SHIELD
+		TEXT_TOOLTIP_BETASHUTTLE_TORPEDO_MOVE
+		TEXT_TOOLTIP_BETASHUTTLE_WEAP1
+		TEXT_TOOLTIP_BETASHUTTLE_WEAP2
+		TEXT_TOOLTIP_BETASHUTTLE_WEAP3
+		TEXT_TOOLTIP_BETASHUTTLE_WEAP4
+		</Encyclopedia_Text>
 
 		<Shield_Armor_Type>ShieldS_Gunship</Shield_Armor_Type>
 		<Shield_Points>125</Shield_Points>
@@ -9717,9 +9719,8 @@
 	</SpaceUnit>
 
 	<SpaceUnit Name="Gozanti_Cruiser_Raider_Proteus">
-<Variant_Of_Existing_Type>Template_Gozanti_Cruiser_Raider_Group</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Gozanti_Cruiser_Raider_Group</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>Ship Crews Cost: 9</Encyclopedia_Unit_Class>
 		TEXT_TOOLTIP_GOZANTI_CRUISER_RAIDER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
 		TEXT_TOOLTIP_GOZANTI_CRUISER_RAIDER_GROUP
@@ -9731,6 +9732,7 @@
 		TEXT_TOOLTIP_GOZANTI_CRUISER_RAIDER_WEAP2
 		TEXT_TOOLTIP_GOZANTI_CRUISER_RAIDER_WEAP3
 		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 9</Encyclopedia_Unit_Class>
 		<Required_Special_Structures>
 		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four, 
 		AI_Category_Dummy | Non_Capital_Category_Dummy
