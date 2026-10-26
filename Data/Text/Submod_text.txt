@@ -790,6 +790,21 @@ TEXT_TOOLTIP_BELBULLAB23,Variant Belbullab design that acts as a heavy assault c
 TEXT_TOOLTIP_BELBULLAB24,Derivative of the Belbullab design spun into an average-performance bomber. Used as a more individually powerful asset compared to swarms of lighter droid bombers, and remained more popular with holdouts and small cells afterwards due to the pilotable nature. At least one instance was taken by Imperial forces for study.
 TEXT_TOOLTIP_BENGILA_URLAN,Bengila Urlan was the Arch-Provost of Rendili StarDrive during the Clone Wars. As Kuat Drive Yards eclipsed Rendili as the most important shipwright for the Republic, Urlan fought back as best he could, ordering spies and infochants to steal Kuati designs and secret, and poach and perhaps even eliminate key Kuat personnel.
 TEXT_TOOLTIP_BENJO,Benjo, also known as ST-1-2 is one of the original members of Alpha Squadron. Benjo previously flew under the command of Villian Dance as his right panelman and second-in-command. Dance later defected to the Rebel Alliance, at which time Benjo unofficially took command of Alpha Squadron due to his rank. Despite the betrayal of his previous squadron leader, Benjo kept his call sign and still admires Dance for their piloting skill witnessed during their mission in the Horuz system.
+TEXT_TOOLTIP_BETASHUTTLE,The first of Telgorn's Assault Shuttle line, the Beta-class Assault Shuttle was an old design dating from the end of the Clone Wars. Saw a long service history despite various successor models. Can engage most targets efficiently.
+TEXT_TOOLTIP_BETASHUTTLE_GROUP,Group: 15x Beta-class Assault Shuttle
+TEXT_TOOLTIP_BETASHUTTLE_HULL,Hull: 175 (Gunship) 
+TEXT_TOOLTIP_BETASHUTTLE_MOVE,Speed: 4.5 | Accel: 0.05 | Turn 0.15
+TEXT_TOOLTIP_BETASHUTTLE_SHIELD,Shields: 145 (3.375/R) (Gunship)  
+TEXT_TOOLTIP_BETASHUTTLE_SQUADRON,Squadron: 3x Beta-class Assault Shuttle
+TEXT_TOOLTIP_BETASHUTTLE_TORPEDO,A modification of the venerable Beta-class Assault Shuttle which replaced its troop bays and much of its other systems to house a large torpedo bay for its size. This increase in firepower came at the cost of speed and shielding. Betas can defend themselves from fighters but are best utilized against capital ships.
+TEXT_TOOLTIP_BETASHUTTLE_TORPEDO_GROUP,Group: 15x Beta Torpedo Boat
+TEXT_TOOLTIP_BETASHUTTLE_TORPEDO_MOVE,Speed: 3.0 | Accel: 0.05 | Turn 0.15
+TEXT_TOOLTIP_BETASHUTTLE_TORPEDO_SHIELD,Shields: 125 (3.30/R) (Gunship)
+TEXT_TOOLTIP_BETASHUTTLE_TORPEDO_SQUADRON,Squadron: 3x Beta Torpedo Boat
+TEXT_TOOLTIP_BETASHUTTLE_WEAP1,2x Fighter Turbolasers: 2 / 2.0s / 4.0km 
+TEXT_TOOLTIP_BETASHUTTLE_WEAP2,2x Fighter Laser Cannons: 2 / 2.0s / 2.0km
+TEXT_TOOLTIP_BETASHUTTLE_WEAP3,1x Light Concussion Missile: 1 / 30.0s / 4.0km
+TEXT_TOOLTIP_BETASHUTTLE_WEAP4,1x Light Proton Torpedo: 1 / 12.75s / 4.0km
 TEXT_TOOLTIP_BONUS_COMMS_DHC_FIGHTER,Communications Ship: 6% Combat bonus for all fighters
 TEXT_TOOLTIP_BONUS_DISCOUNT_COMPANY_LOW2,Price: -10% | Time: -10%
 TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS_ORGANIC,Force Hunters: Reveals mines and stealth units
@@ -908,6 +923,7 @@ TEXT_TOOLTIP_COMMAND_SUPERNOVA,Modernized DHC, Act on Vibes
 TEXT_TOOLTIP_COMMAND_SYNTAX_ERROR,Modified Glory Star Destroyer, SynTax Error
 TEXT_TOOLTIP_COMMAND_T11,Super Transport VII, Garbage Scowl
 TEXT_TOOLTIP_COMMAND_THETA_SQUADRON,TIE Bomber, Theta Squadron
+TEXT_TOOLTIP_COMMAND_VOSS,Sentinel Company
 TEXT_TOOLTIP_COMMAND_WOLFS_CLAW,Imperial-I Star Destroyer, Wolf's Claw
 TEXT_TOOLTIP_COMMAND_YARNAR_SQUADRON,Missile TIE Fighter, Celanon Garrison Squadron
 TEXT_TOOLTIP_COMMS_DHC,Another refit of the ubiquitous Dreadnaught Heavy Cruiser hull, this version is geared towards being a fleet support vessel with extensive communication equipment, sensor capacity and electronic warfare suites. While the armament is reduced to free up power for these additional systems, the added capabilities make it a potent support ship in most fleets and are a testament to the versatility of the hull. Although not as powerful as the original configuration, it can still defend itself and nearby allies from smaller vessels.
@@ -1162,6 +1178,21 @@ TEXT_TOOLTIP_FROSTFIRE_WEAP2,4x Medium Turbolasers: 2 / 0.75s / 6.3km
 TEXT_TOOLTIP_FROSTFIRE_WEAP3,2x Medium Dual Ion Cannons: 2 / 4.0s / 6.3km
 TEXT_TOOLTIP_FYYAR,An Imperial Admiral mainly known for his research projects rather than military campaigns. Fyyar worked on armor and shield technologies, including the Shadow Armor that the Reborn Dark Jedi would wear, empowered by Artusian crystals, as well as a mechanized battle suit for himself. Sometime after the Battle of Endor, Fyyar joined forces with Hethrir and Desann, lending his technological expertise and gaining command of the faction's advanced siege warship, the Doomgiver. However, Fyyar had little respect for the force-obsessed Hethrir and Desann and planned to take the throne for himself once the Jedi were out of the way.   
 TEXT_TOOLTIP_FYYAR_EMPEROR,TODO
+TEXT_TOOLTIP_GAMMAPERSONNELCARRIER,A variant of the versatile Gamma-class Assault Shuttle made to quickly transport troops to and from planetary surfaces. This variant stripped away much of the Gamma's offensive systems and Space Trooper launching capabilities in exchange for extra engine power and shields. Best used to intercept enemy fighters and bombers. 
+TEXT_TOOLTIP_GAMMAPERSONNELCARRIER_GROUP,Group: 16x Gamma-class Light Personnel Carrier
+TEXT_TOOLTIP_GAMMAPERSONNELCARRIER_MOVE,Speed: 7.5 | Accel: 0.15 | Turn: 0.15
+TEXT_TOOLTIP_GAMMAPERSONNELCARRIER_SHIELD,Shields: 175 (4.0/R) (Gunship)
+TEXT_TOOLTIP_GAMMAPERSONNELCARRIER_SQUADRON,Squadron: 4x Gamma-class Light Personnel Carrier
+TEXT_TOOLTIP_GAMMASHUTTLE_GROUP,Group: 15x Gamma-class Assault Shuttle
+TEXT_TOOLTIP_GAMMASHUTTLE_MOVE,Speed: 6.5 | Accel: 0.10 | Turn: 0.15
+TEXT_TOOLTIP_GAMMASHUTTLE_SHIELD,Shield: 150 (3.375/R) (Gunship)
+TEXT_TOOLTIP_GAMMASHUTTLE_SQUADRON,Squadron: 3x Gamma-class Assault Shuttle
+TEXT_TOOLTIP_GAMMASHUTTLE_WEAP1,4x Heavy Fighter Laser Cannons: 2 / 2.0s / 3.0km
+TEXT_TOOLTIP_GAMMASHUTTLE_WEAP2,4x Fighter Turbolasers: 2 / 3.0s / 4.0km
+TEXT_TOOLTIP_GAMMASHUTTLE_WEAP3,1x Fighter Ion Cannon: 2 / 2.0s / 3.0km
+TEXT_TOOLTIP_GAMMASHUTTLE_WEAP4,1x Fighter Assault Concussion Missile: 1 / 30.0s / 1.8km
+TEXT_TOOLTIP_GAMMASHUTTLEA,The successor to the Beta-class Shuttle, the Gamma-class was a common sight among the navies of many factions galaxy wide for many decades. It was most often used to board enemy capital ships and installations while providing fire support to its complement of Spacetroopers. While it came factory equipped with a stern-mounted tractor beam, many models replaced it with an ion cannon to aid it in its boarding operations. This model is best equipped to deal with enemy fighters and other gunships.
+TEXT_TOOLTIP_GAMMASHUTTLEB,The successor to the Beta-class Shuttle, the Gamma-class was a common sight among the navies of many factions galaxy wide for many decades. It was most often used to board enemy capital ships and installations while providing fire support to its complement of Spacetroopers. While it came factory equipped with a stern-mounted tractor beam, many models replaced it with an ion cannon to aid it in its boarding operations. This model is best equipped to attack larger capital ships.
 TEXT_TOOLTIP_GAT,The Ground Armored Tank served as a shielded fast attack platform early in the war, often in opposition to the comparable Saber tanks. Due to losses and poor direct performance against loyalist assets, the design ceased production relatively quickly into the war in favour of Techno Union alternatives.
 TEXT_TOOLTIP_GAT_COMPANY,Company: 4x GAT
 TEXT_TOOLTIP_GAT_HEALTH,Health: 100 (Medium Vehicle)
@@ -1815,6 +1846,12 @@ TEXT_UNIT_BAYONET,Bayonet Light Cruiser
 TEXT_UNIT_BELBULLAB22,Belbullab-22
 TEXT_UNIT_BELBULLAB23,Belbullab-23
 TEXT_UNIT_BELBULLAB24,Belbullab-24
+TEXT_UNIT_BETASHUTTLE,Beta-class Assault Shuttle
+TEXT_UNIT_BETASHUTTLE_GROUP,Beta-class Assault Shuttle Group
+TEXT_UNIT_BETASHUTTLE_SQUADRON,Beta-class Assault Shuttle Squadron
+TEXT_UNIT_BETASHUTTLE_TORPEDO,Beta Torpedo Boat
+TEXT_UNIT_BETASHUTTLE_TORPEDO_GROUP,Beta Torpedo Boat  Group
+TEXT_UNIT_BETASHUTTLE_TORPEDO_SQUADRON,Beta Torpedo Boat Squadron
 TEXT_UNIT_BRAK_FIGHTERS_RESEARCH,Fighter Modernization Program
 TEXT_UNIT_BRAK_FLEET_RESEARCH,Brak Sector Fleet Modernization Program
 TEXT_UNIT_BTLA2_Y_WING,BTL-A2 Y-wing
@@ -1860,6 +1897,14 @@ TEXT_UNIT_FAUX_STORMTROOPER_GRENADIER,Faux Stormtrooper Grenadier
 TEXT_UNIT_FAUX_STORMTROOPER_PLATOON,Faux Stormtrooper Platoon
 TEXT_UNIT_FAUX_STORMTROOPER_SERGEANT,Faux Stormtrooper Sergeant
 TEXT_UNIT_FAUX_STORMTROOPER_SQUAD,Faux Stormtrooper Squad
+TEXT_UNIT_GAMMAPERSONNELCARRIER,Gamma-class Personnel Carrier
+TEXT_UNIT_GAMMAPERSONNELCARRIER_SQUADRON,Gamma-class Light Personnel Carrier Squadron
+TEXT_UNIT_GAMMASHUTTLEA,Gamma-class Assault Shuttle Model A
+TEXT_UNIT_GAMMASHUTTLEA_GROUP,Gamma-class Assault Shuttle Model A Group
+TEXT_UNIT_GAMMASHUTTLEA_SQUADRON,Gamma-class Assault Shuttle Model A Squadron
+TEXT_UNIT_GAMMASHUTTLEB,Gamma-class Assault Shuttle Model B
+TEXT_UNIT_GAMMASHUTTLEB_GROUP,Gamma-class Assault Shuttle Model B Group
+TEXT_UNIT_GAMMASHUTTLEB_SQUADRON,Gamma-class Assault Shuttle Model B Squadron
 TEXT_UNIT_GAT,Ground Armored Tank
 TEXT_UNIT_GAT_COMPANY,GAT Company
 TEXT_UNIT_GLADIATOR_DEMOLISHER,Gladiator-I Refit
@@ -2091,5 +2136,132 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
+TEXT_TOOLTIP_GOZANTI_CRUISER_RAIDER,A refit of the classic CEC Gozanti Cruiser designs which added turbolasers, massively increasing the firepower the slow vessel could bring on target and allowing it to act as a makeshift capital ship. Such a conversion was popular with criminal groups who had no real way to access or even maintain larger warships and thus up-gunning the reliable and widely available Gozanti was their best option.
+TEXT_TOOLTIP_GOZANTI_CRUISER_RAIDER_GROUP,Group: 15x Gozanti Cruiser Raider
+TEXT_TOOLTIP_GOZANTI_CRUISER_RAIDER_SQUADRON,Squadron: 3x Gozanti Cruiser Raider
+TEXT_TOOLTIP_GOZANTI_CRUISER_RAIDER_WEAP1,1x Fighter Turbolaser: 2 / 2.0s / 4.0km
+TEXT_TOOLTIP_GOZANTI_CRUISER_RAIDER_WEAP2,4x Fighter Laser Cannon: 4 / 1.0s / 2.0km
+TEXT_TOOLTIP_GOZANTI_CRUISER_RAIDER_WEAP3,1x Light Proton Torpedo: 1 / 150.0s / 3.0km
+TEXT_UNIT_GOZANTI_CRUISER_RAIDER,Gozanti Cruiser Raider
+TEXT_UNIT_GOZANTI_CRUISER_RAIDER_GROUP,Gozanti Cruiser Raider Group
+TEXT_UNIT_GOZANTI_CRUISER_RAIDER_SQUADRON,Gozanti Cruiser Raider Squadron
+TEXT_UNIT_RX200,RX-200 Falchion
+TEXT_TOOLTIP_RX200,Designed by Rothana Heavy Engineering, The RX-200 Falchion Class Assault Tank was a mobile direct fire artillery piece of the Grand Army of the Republic. Its large Ion beam cannon is effective against vulnerable targets such as droids, speeders and aircraft, relegating the vehicle to a specialist role.
+TEXT_TOOLTIP_RX200_COMPANY,Company: 1x RX-200 Falchion
+TEXT_TOOLTIP_RX200_HEALTH,Health: 850 (Heavy Vehicle)
+TEXT_TOOLTIP_RX200_MOVE,Speed: 1.5 | Turn: 1.0
+TEXT_TOOLTIP_RX200_WEAP1,1x Ion Beam: 16 / 2.0s / 600m
+TEXT_TOOLTIP_RX200_WEAP2,2x Heavy AI Blaster Cannons: 2 / 1.0s / 320m
+TEXT_TOOLTIP_RX200_WEAP3,1x Ion Beam: 16 / 1.0s / 600m
+TEXT_UNIT_JU9_JUGGERNAUT_DROID,JU-9 Juggernaut War Droid
+TEXT_UNIT_JU9_JUGGERNAUT_DROID_COMPANY,JU-9 Juggernaut War Droid Platoon
+TEXT_UNIT_JU9_JUGGERNAUT_DROID_SQUAD,JU-9 Juggernaut War Droid Squad
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID,A war droid derived from similar concepts as the Holowan IG-series, though amusingly more reminiscent of their future products than ones of a similar age. Favored by petty local warlords and mercenary forces for antivehicle support and defensive operations, they function best against heavier targets but are intended to be screened by normal infantry.
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_COMPANY,Company: 25x JU-9 Juggernaut War Droid
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_COMPANY_WEAP1,25x Heavy Blaster Pistol: 1 / 1.5s / 220m
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_COMPANY_WEAP2,25x Heavy AV Missile Launcher: 1 / 9.0s / 320m
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_HEALTH,Health: 23 (Droid)
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_MOVE,Speed: 0.9 
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_SQUAD,Squad: 5x JU-9 Juggernaut War Droid
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_SQUAD_WEAP1,5x Heavy Blaster Pistol: 1 / 1.5s / 220m
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_SQUAD_WEAP2,5x Heavy AV Missile Launcher: 1 / 9.0s / 320m
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_WEAP1,1x DL-44 Blaster Pistol: 1 / 1.5s / 220m
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_WEAP2,1x Heavy AV Missile Launcher: 1 / 9.0s / 320m
+TEXT_TOOLTIP_PAC,No-frills ground transport adapted from the design of a commercial repulsorlift sled. Less protected than the larger MTT but faster and more suited to bulk transport.
+TEXT_TOOLTIP_PAC_COMPANY,Company: 4x Platoon Attack Craft
+TEXT_TOOLTIP_PAC_HEALTH,Health: 150 (Light Vehicle)
+TEXT_TOOLTIP_PAC_MOVE,Speed: 2.0 | Turn: 1.0 
+TEXT_TOOLTIP_PAC_WEAP1,2x Light AI Blaster Cannons: 4 / 1.5s / 240m
+TEXT_TOOLTIP_HAML,The Heavy Armored Missile Launcher is one of many Trade Federation products that long predate the outbreak of the Clone Wars. Though very dangerous to air units, it has little ability to protect itself from ground elements and it should never be used unescorted.
+TEXT_TOOLTIP_HAML_COMPANY,Company: 2x HAML
+TEXT_TOOLTIP_HAML_HEALTH,Health: 200 (Medium Vehicle)
+TEXT_TOOLTIP_HAML_MOVE,Speed: 1.75 | Turn: 2.0 
+TEXT_TOOLTIP_HAML_WEAP1,1x Flak Missile: 4 / 2.0s / 400m
+TEXT_TOOLTIP_HAML_WEAP2,2x Light AI Blaster Cannons: 2 / 1.0s / 240m
+TEXT_UNIT_RX200,RX-200 Falchion
+TEXT_UNIT_PAC,Platoon Attack Craft
+TEXT_UNIT_PAC_COMPANY,Platoon Attack Craft Company
+TEXT_UNIT_MTT,Multi-Troop Transport
+TEXT_TOOLTIP_VX_AA_DROID,A configuration of the VX series artillery droids, armed with flak missiles to protect against aerial assaults. With its lighter frame enabling it to move faster compared to long-range artillery models and a token anti-infantry laser, this droid is aptly suited for all its users anti-air needs.
+TEXT_TOOLTIP_VX_AA_DROID_COMPANY,Company: 4x VX-6 Anti-Air Droid
+TEXT_TOOLTIP_VX_AA_DROID_HEALTH,Health: 65 (Light Vehicle)
+TEXT_TOOLTIP_VX_AA_DROID_MOVE,Speed: 1.75 | Turn: 1.0
+TEXT_TOOLTIP_VX_AA_DROID_WEAP1,1x Flak Missile: 2 / 2.0s / 400m
+TEXT_TOOLTIP_VX_AA_DROID_WEAP2,1x Light AI Blaster Cannon: 4 / 1.0s / 200m
+TEXT_TOOLTIP_VX_ARTILLERY_DROID,A simple and reliable military droid model employed and maintained for millenia which was sold to nearly everyone who would pay by Czerka Corporation. Consists of little more than a tracked base, targeting sensors, and support for racks of missiles. Useful for bombarding enemy positions at range.
+TEXT_TOOLTIP_VX_ARTILLERY_DROID_COMPANY,Company: 2x VX-series Artillery Droid
+TEXT_TOOLTIP_VX_ARTILLERY_DROID_HEALTH,Health: 75 (Light Vehicle)
+TEXT_TOOLTIP_VX_ARTILLERY_DROID_MOVE,Speed: 1.5 | Turn: 1.0
+TEXT_TOOLTIP_VX_ARTILLERY_DROID_WEAP1,1x Proton Missile: 4 / 14.8s / 1440m
+TEXT_UNIT_VX_AA_DROID,VX-6 Anti-Air Droid
+TEXT_UNIT_VX_AA_DROID_COMPANY,VX-6 Anti-Air Droid Company
+TEXT_UNIT_VX_ARTILLERY_DROID,VX-series Artillery Droid
+TEXT_UNIT_VX_ARTILLERY_DROID_COMPANY,VX-series Artillery Droid Company
+TEXT_COMPANY_CZERKA,Czerka Arms
+TEXT_COMPANY_CZERKA_DESCRIPTION,All Czerka products: VX-series Droids
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_RIFLE1,Army Special Missions Rifleman Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_RIFLE2,Stormtrooper Rifleman Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER1,Army Special Missions Rifleman Squad: 1 / 10
+TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER2,Army Special Missions Engineer Squad: 2 / 10
+TEXT_EVENT_NIVERS_SSD_CHOICE_HEADER,              Star Dreadnought Choice
+TEXT_EVENT_NIVERS_MANDATOR2_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-II Star Dreadnought.
+TEXT_EVENT_NIVERS_BELLATOR_CHOICE_BODY,               Choose a desgin to acquire as successor to the failed Bellator Star Dreadnought.
+TEXT_EVENT_NIVERS_MANDATOR3_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-III Star Dreadnought.
+TEXT_UNIT_V_WING_FIGHTER_MISSILE,Missile V-wing
+TEXT_TOOLTIP_V_WING_MISSILE,An extremely fast interceptor with a respectable armament. Developed by Walex Blissex during the Clone Wars to be launched in swarms by mainline Republic carriers, it would later be phased out after a few years of Imperial service in favour of the more cost-effective TIE series. It is best used to engage enemy fighters or respond to incoming bombers. This version is equipped with a limited supply of concussion missiles.
+TEXT_V_WING_MISSILE_SQUADRON,Missile V-wing Squadron
+TEXT_STATBLOCK_V_WING_MISSILE_SQUADRON,Squadron: 12x Missile V-wing
+TEXT_V_WING_MISSILE_SQUADRON2,Missile V-wing Squadron x2
+TEXT_STATBLOCK_V_WING_MISSILE_SQUADRON_DOUBLE,Squadron: 24x Missile V-wing
+TEXT_V_WING_MISSILE_SQUADRON_HALF,Missile V-wing Squadron 1/2
+TEXT_STATBLOCK_V_WING_MISSILE_SQUADRON_HALF,Squadron: 6x Missile V-wing
+TEXT_UNIT_V_WING_FIGHTER_ELITE_GUARD,Elite Guard V-wing
+TEXT_TOOLTIP_V_WING_ELITE_GUARD,A rare upgraded version of the Nimbus V-Wing featuring a hyperdrive, improved shielding, and concussion missiles used for escorting high value personnel.
+TEXT_STATBLOCK_V_WING_ELITE_GUARD_BASE,Health: 9 | Shields: 6
+TEXT_STATBLOCK_V_WING_ELITE_GUARD_WEAP2,1x Fighter Concussion Missile: 1 / 75.0s / 1.8km
+TEXT_STATBLOCK_V_WING_ELITE_GUARD_SQUADRON,Squadron: 12x Elite Guard V-wing
+TEXT_V_WING_ELITE_GUARD_SQUADRON,Elite Guard V-wing Squadron
+TEXT_STATBLOCK_V_WING_ELITE_GUARD_SQUADRON_DOUBLE,Squadron: 24x Elite Guard V-wing
+TEXT_V_WING_ELITE_GUARD_SQUADRON2,Elite Guard V-wing Squadron x2
+TEXT_STATBLOCK_V_WING_ELITE_GUARD_SQUADRON_HALF,Squadron: 6x Elite Guard V-wing
+TEXT_V_WING_ELITE_GUARD_SQUADRON_HALF,Elite Guard V-wing Squadron 1/2
+TEXT_UNIT_TORRENT,V-19 Torrent
+TEXT_TOOLTIP_TORRENT,A maneuverable mainline fighter, this craft was originally designed for the Clone Wars where it was one of the most common Republic fighter models. Imperial service saw it replaced by the TIE Series and relegated to the Outer Rim where it would begin to see use by other groups.
+TEXT_STATBLOCK_V19_BASE,Health: 12 | Unshielded
+TEXT_STATBLOCK_V19_MOVE,Speed: 7.5 | Maneuverability: 5.25
+TEXT_STATBLOCK_V19_WEAP1,1x Fighter Laser Cannon: 4 / 2.0s / 1.1km
+TEXT_STATBLOCK_V19_WEAP2,1x Fighter Concussion Missile: 1 / 50.0s / 1.8km
+TEXT_STATBLOCK_V19_SQUADRON,Squadron: 12x V-19 Torrent
+TEXT_STATBLOCK_V19_SQUADRON_DOUBLE,Squadron: 24x V-19 Torrent
+TEXT_STATBLOCK_V19_SQUADRON_HALF,Squadron: 6x V-19 Torrent
+TEXT_STATBLOCK_V19_SQUADRON_TRIPLE,Squadron: 36x V-19 Torrent
+TEXT_TORRENT_SQUADRON,V-19 Torrent Squadron
+TEXT_TORRENT_SQUADRON_HALF,V-19 Torrent Squadron 1/2
+TEXT_TORRENT_SQUADRON2,V-19 Torrent Squadron x2
+TEXT_TORRENT_SQUADRON3,V-19 Torrent Squadron x3
+TEXT_UNIT_TRIFIGHTER,Droid Tri-Fighter
+TEXT_TOOLTIP_TRIFIGHTER,A compact, Colicoid designed droid fighter built around a reactor and advanced droid brain. It is fast, powerful, and agile but costly enough to not be deployed in as great numbers as vultures and their derivatives. It is very well suited to dogfighting and intercepting bombers.
+TEXT_STATBLOCK_TRIFIGHTER_BASE,Health: 10 | Unshielded
+TEXT_STATBLOCK_TRIFIGHTER_MOVE,Speed: 7.4 | Maneuverability: 5.65
+TEXT_STATBLOCK_TRIFIGHTER_SQUADRON,Squadron: 12x Droid Tri-Fighter
+TEXT_STATBLOCK_TRIFIGHTER_SQUADRON_DOUBLE,Squadron: 24x Droid Tri-Fighter
+TEXT_STATBLOCK_TRIFIGHTER_SQUADRON_HALF,Squadron: 6x Droid Tri-Fighter
+TEXT_STATBLOCK_TRIFIGHTER_WEAP1,1x Fighter Laser Cannon: 8 / 3.0s / 1.0km
+TEXT_STATBLOCK_TRIFIGHTER_WEAP2,1x Fighter Concussion Missile: 1 / 50.0s / 1.8km
+TEXT_TRIFIGHTER_SQUADRON,Tri-fighter Squadron
+TEXT_TRIFIGHTER_SQUADRON_HALF,Tri-fighter Squadron 1/2
+TEXT_TRIFIGHTER_SQUADRON2,Tri-fighter Squadron x2
+TEXT_TOOLTIP_AUREK_STARFIGHTER,The last, latest models of the venerable Aurek-series of strike fighters, a product of Outer Rim engineers rather than now-defunct megacorps. Speedy and armed with modern weapons, but the light construction and poor handling show the age of the base design even with new components and constant tuning. 
+TEXT_STATBLOCK_AUREK_STARFIGHTER_BASE,Health: 7 | Shields: 3
+TEXT_STATBLOCK_AUREK_STARFIGHTER_MOVE,Speed: 9.07 | Maneuverability: 2.92
+TEXT_STATBLOCK_AUREK_STARFIGHTER_SQUADRON,Squadron: 12x Modernized Aurek Strikefighter
+TEXT_STATBLOCK_AUREK_STARFIGHTER_SQUADRON_DOUBLE,Squadron: 24x Modernized Aurek Strikefighter
+TEXT_STATBLOCK_AUREK_STARFIGHTER_SQUADRON_HALF,Squadron: 6x Modernized Aurek Strikefighter
+TEXT_STATBLOCK_AUREK_STARFIGHTER_WEAP1,1x Fighter Laser Cannon: 4 / 2.0s / 1.1km
+TEXT_STATBLOCK_AUREK_STARFIGHTER_WEAP2,1x Fighter Proton Torpedo: 1 / 50.0s / 1.8km
+TEXT_UNIT_AUREK_STARFIGHTER,Modernized Aurek Strikefighter
+TEXT_AUREK_STARFIGHTER_SQUADRON,Modernized Aurek Strikefighter Squadron
+TEXT_AUREK_STARFIGHTER_SQUADRON_HALF,Modernized Aurek Strikefighter Squadron 1/2
+TEXT_AUREK_STARFIGHTER_SQUADRON2,Modernized Aurek Strikefighter Squadron x2
 TEXT_UNIT_NIVERS_MISSILE_FIGHTER_RESEARCH,Research: Missile TIE Fighter & V-Wing.
 TEXT_TOOLTIP_NIVERS_MISSILE_FIGHTER_RESEARCH,Equip TIE Fighters and standard V-Wings with external concussion missile racks for increased firepower.
