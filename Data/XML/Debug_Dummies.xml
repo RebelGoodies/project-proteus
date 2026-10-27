@@ -64,8 +64,7 @@
 	<Debug_Dummy Name="HAG">											<!-- Referenced by multiple LandMode lua files -->
 	</Debug_Dummy>
 
-	<Debug_Dummy Name="Defoliator">											<!-- Referenced by multiple LandMode lua files -->
-	</Debug_Dummy>
+	<!-- Defoliator imported from FotR -->								<!-- Referenced by multiple LandMode lua files -->
 
 	<Debug_Dummy Name="CIS_Defoliator">											<!-- Referenced by multiple LandMode lua files -->
 	</Debug_Dummy>
@@ -79,8 +78,7 @@
 	<Debug_Dummy Name="Sith_Krath_Artillery">							<!-- Referenced by multiple LandMode lua files -->
 	</Debug_Dummy>
 
-	<Debug_Dummy Name="VX_Artillery_Droid">								<!-- Referenced by multiple LandMode lua files -->
-	</Debug_Dummy>
+	<!-- VX_Artillery_Droid imported from FotR -->						<!-- Referenced by multiple LandMode lua files -->
 
 	<Debug_Dummy Name="Morut_Gun_Platform">								<!-- Referenced by multiple LandMode lua files -->
 	</Debug_Dummy>
@@ -91,8 +89,7 @@
 	<Debug_Dummy Name="Civil_Gunship">									<!-- Referenced by EscortForce -->
 	</Debug_Dummy>
 
-	<Debug_Dummy Name="PAC">											<!-- Referenced by AI_Plan_Secure_Contestable_Transport -->
-	</Debug_Dummy>
+	<!-- PAC imported from FotR -->										<!-- Referenced by AI_Plan_Secure_Contestable_Transport -->
 
 	<Debug_Dummy Name="MAF">											<!-- Referenced by AI_Plan_Secure_Contestable_Transport -->
 	</Debug_Dummy>
