@@ -8436,7 +8436,7 @@
 		TEXT_TOOLTIP_GAMMASHUTTLE_WEAP3
 		TEXT_TOOLTIP_BETASHUTTLE_WEAP3
 		</Encyclopedia_Text>
-		<Icon_Name>i_button_vt49_decimator.tga</Icon_Name>
+		<Icon_Name>i_button_gammaA.tga</Icon_Name>
 
 		<Space_Model_Name>EV_Gamma_Assault_Shuttle.ALO</Space_Model_Name>
 		<No_Colorization_Color/>
@@ -8621,6 +8621,7 @@
 		TEXT_TOOLTIP_GAMMASHUTTLE_WEAP3
 		TEXT_TOOLTIP_GAMMASHUTTLE_WEAP4
 		</Encyclopedia_Text>
+		<Icon_Name>i_button_gammaB.tga</Icon_Name>
 
 		<HardPoints>
 		HP_GammaBeta_Turbo_00, HP_GammaBeta_Turbo_01, HP_GammaBeta_Turbo_02, HP_GammaBeta_Turbo_03, HP_GammaBeta_AssConc, HP_GammaBeta_Ion
@@ -8654,6 +8655,7 @@
 		</HardPoints>
 
 		<CategoryMask> Gunship | AntiFighter </CategoryMask>
+		<Icon_Name>i_button_gammapersonnelcarrier.tga</Icon_Name>
 	</SpaceUnit>
 
 	<SpaceUnit Name="Beta_Torpedo_Boat">
@@ -9018,7 +9020,7 @@
 		TEXT_TOOLTIP_BETASHUTTLE_WEAP3
 		</Encyclopedia_Text>
 
-		<Icon_Name>i_button_vt49_decimator.tga</Icon_Name>
+		<Icon_Name>i_button_beta.tga</Icon_Name>
 
 		<!-- Same as unit -->
 		<Max_Speed>4.5</Max_Speed>
@@ -9149,7 +9151,7 @@
 		TEXT_TOOLTIP_BETASHUTTLE_WEAP3
 		</Encyclopedia_Text>
 
-		<Icon_Name>i_button_vt49_decimator.tga</Icon_Name>
+		<Icon_Name>i_button_gammaA.tga</Icon_Name>
 
 		<!-- Same as unit -->
 		<Max_Speed>6.5</Max_Speed>
@@ -9209,7 +9211,7 @@
 		TEXT_TOOLTIP_GAMMASHUTTLE_WEAP3
 		TEXT_TOOLTIP_BETASHUTTLE_WEAP3
 		</Encyclopedia_Text>
-		<Icon_Name>i_button_beta_shuttle.tga</Icon_Name>
+		<Icon_Name>i_button_gammaB.tga</Icon_Name>
 
 		<Damage>25</Damage>
 		<AI_Combat_Power>69</AI_Combat_Power>
@@ -9280,7 +9282,7 @@
 		TEXT_TOOLTIP_BETASHUTTLE_WEAP3
 		</Encyclopedia_Text>
 
-		<Icon_Name>i_button_vt49_decimator.tga</Icon_Name>
+		<Icon_Name>i_button_gammaB.tga</Icon_Name>
 
 		<!-- Same as unit -->
 		<Max_Speed>6.5</Max_Speed>
@@ -9705,11 +9707,11 @@
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 
 		<Required_Special_Structures>
-		Pirate_Base,
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
 		AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
 
-		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 
 		<!-- Survival -->
 		<Tactical_Build_Cost_Multiplayer>2300</Tactical_Build_Cost_Multiplayer>
@@ -9785,19 +9787,18 @@
 
 		<SpaceUnit Name="Trimark_VII">
 
-		<Text_ID>TEXT_UNIT_GAMMASHUTTLEA</Text_ID>
+		<Text_ID>TEXT_UNIT_TRIMARKVII</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_GUNSHIPLIGHT</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_GAMMASHUTTLEA
+		TEXT_TOOLTIP_TRIMARKVII
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_BETASHUTTLE_HULL
-		TEXT_TOOLTIP_GAMMASHUTTLE_SHIELD
-		TEXT_TOOLTIP_GAMMASHUTTLE_MOVE 
-		TEXT_TOOLTIP_GAMMASHUTTLE_WEAP1
-		TEXT_TOOLTIP_GAMMASHUTTLE_WEAP3
-		TEXT_TOOLTIP_BETASHUTTLE_WEAP3
+		TEXT_TOOLTIP_TRIMARKVII_HULL
+		TEXT_TOOLTIP_TRIMARKVII_SHIELD
+		TEXT_TOOLTIP_TRIMARKVII_MOVE
+		TEXT_TOOLTIP_TRIMARKVII_WEAP1
+		TEXT_TOOLTIP_TRIMARKVII_WEAP2
 		</Encyclopedia_Text>
-		<Icon_Name>i_button_vt49_decimator.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_TRI_MARKVII.tga</Icon_Name>
 
 		<Space_Model_Name>Tri_mark_VII.ALO</Space_Model_Name>
 		<No_Colorization_Color/>
@@ -9971,7 +9972,7 @@
 		<SpaceUnit Name="Trimark_VII_Group">
 		<Variant_Of_Existing_Type> Trimark_VII </Variant_Of_Existing_Type>
 
-		<Text_ID>TEXT_UNIT_GAMMASHUTTLEA_GROUP</Text_ID>
+		<Text_ID>TEXT_UNIT_TRIMARKVII_GROUP</Text_ID>
 		<Encyclopedia_Unit_Class>Ship Crews Cost: 7</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_GAMMASHUTTLEA
@@ -10046,7 +10047,7 @@
 		TEXT_TOOLTIP_BETASHUTTLE_WEAP3
 		TEXT_TOOLTIP_BETASHUTTLE_WEAP4
 		</Encyclopedia_Text>
-		<Icon_Name>i_button_betatorpedo.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_TRI_MARKVII.tga</Icon_Name>
 
 		<Damage>25</Damage>
 		<AI_Combat_Power>69</AI_Combat_Power>
@@ -10118,7 +10119,7 @@
 		TEXT_TOOLTIP_BETASHUTTLE_WEAP4
 		</Encyclopedia_Text>
 
-		<Icon_Name>i_button_betatorpedo.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_TRI_MARKVII.tga</Icon_Name>
 
 		<!-- Same as unit -->
 		<Max_Speed>7.5</Max_Speed>
