@@ -3905,7 +3905,7 @@
 		<Land_Model_Name>Neimoidian_gunner.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 		<AI_Combat_Power>121.35</AI_Combat_Power>
-		<Affiliation>Rebel, Trade_Federation</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -7700,7 +7700,7 @@
 
 		<Icon_Name>i_button_bx_commando.tga</Icon_Name>
 		<AI_Combat_Power>93.83</AI_Combat_Power>
-		<Affiliation>Rebel, Banking_Clan, Trade_Federation, Commerce_Guild, Techno_Union, Independent_Forces</Affiliation>
+		<Affiliation>Rebel, Independent_Forces</Affiliation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -7754,7 +7754,7 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
-		<Affiliation>Rebel, Banking_Clan, Trade_Federation, Commerce_Guild, Techno_Union, Independent_Forces</Affiliation>
+		<Affiliation>Rebel, Independent_Forces</Affiliation>
 		<Political_Control/>
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>

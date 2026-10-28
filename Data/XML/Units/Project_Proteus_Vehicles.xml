@@ -1597,7 +1597,7 @@
 		<Damage>20</Damage>
 		<AI_Combat_Power>31</AI_Combat_Power>
 
-		<Affiliation>Rebel, Banking_Clan, Trade_Federation, Commerce_Guild, Techno_Union</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		<Political_Control/>
 
 		<Type>Hover</Type>
@@ -2307,7 +2307,7 @@
 	<GroundVehicle Name="Defoliator">
 		<Variant_Of_Existing_Type>Template_Defoliator</Variant_Of_Existing_Type>
 		
-		<Affiliation>Rebel, Banking_Clan, Trade_Federation, Commerce_Guild, Techno_Union</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		
 		<Death_Clone>Damage_Normal, Defoliator_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Normal, Defoliator_Deployed_Death_Clone</Death_Clone>
@@ -4346,7 +4346,7 @@
 		<Damage>20</Damage>
 		<AI_Combat_Power>43</AI_Combat_Power>
 
-		<Affiliation>Rebel, Banking_Clan, Trade_Federation, Commerce_Guild, Techno_Union</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		<Political_Control/>
 
 		<Type>Hover</Type>
@@ -6370,7 +6370,7 @@
 		<Damage>13</Damage>
 		<AI_Combat_Power>43</AI_Combat_Power>
 
-		<Affiliation>Rebel, Banking_Clan, Trade_Federation, Commerce_Guild, Techno_Union</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
 
 		<Type>Hover</Type>
@@ -6564,7 +6564,7 @@
 		<Damage>100</Damage>
 		<AI_Combat_Power>199</AI_Combat_Power>
 
-		<Affiliation>Rebel, Banking_Clan, Trade_Federation, Commerce_Guild, Techno_Union</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
@@ -6760,7 +6760,7 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
-		<Affiliation>Banking_Clan, Trade_Federation, Commerce_Guild, Techno_Union</Affiliation>
+		<Affiliation/>
 		<Political_Control/>
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
