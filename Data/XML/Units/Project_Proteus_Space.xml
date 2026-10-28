@@ -8692,7 +8692,7 @@
 		<Variant_Of_Existing_Type> Beta_Shuttle </Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_BETA_SHUTTLE_GROUP</Text_ID>
-		<Encyclopedia_Unit_Class>Ship Crews Cost: 7</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 8</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_BETASHUTTLE
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -8754,7 +8754,7 @@
 		<Variant_Of_Existing_Type> Gamma_Shuttle_A </Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_GAMMASHUTTLEA_GROUP</Text_ID>
-		<Encyclopedia_Unit_Class>Ship Crews Cost: 7</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 8</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_GAMMASHUTTLEA
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -8816,7 +8816,7 @@
 		<Variant_Of_Existing_Type> Gamma_Shuttle_B </Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_GAMMASHUTTLEB_GROUP</Text_ID>
-		<Encyclopedia_Unit_Class>Ship Crews Cost: 7</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 8</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_GAMMASHUTTLEB
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -8878,7 +8878,7 @@
 		<Variant_Of_Existing_Type> Gamma_Personnel_Carrier </Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_GAMMASPERSONNELCARRIER_GROUP</Text_ID>
-		<Encyclopedia_Unit_Class>Ship Crews Cost: 7</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 8</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_GAMMASHUTTLEB
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -9462,7 +9462,7 @@
 		<Variant_Of_Existing_Type> Beta_Torpedo_Boat </Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_BETASHUTTLE_TORPEDO_GROUP</Text_ID>
-		<Encyclopedia_Unit_Class>Ship Crews Cost: 7</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 8</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_BETASHUTTLE_TORPEDO
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -9973,7 +9973,7 @@
 		<Variant_Of_Existing_Type> Trimark_VII </Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_TRIMARKVII_GROUP</Text_ID>
-		<Encyclopedia_Unit_Class>Ship Crews Cost: 7</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 8</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_GAMMASHUTTLEA
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
