@@ -2505,7 +2505,7 @@
 
 		<Build_Cost_Credits>1500</Build_Cost_Credits>
 
-		<Required_Planets>Dxun, Kashyyyk, Korriban, Taris, Telos, Trandosha</Required_Planets>
+		<Required_Planets>Dxun, Kashyyyk, Korriban, Taris, Telos</Required_Planets>
 
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_BONUS_PRICE_TIME_COMPANY
@@ -2524,7 +2524,7 @@
 		TEXT_OBJECT_STAR_SYSTEM_KORRIBAN
 		TEXT_OBJECT_STAR_SYSTEM_TARIS
 		TEXT_OBJECT_STAR_SYSTEM_TELOS
-		TEXT_OBJECT_STAR_SYSTEM_TRANDOSHA
+		<!-- TEXT_OBJECT_STAR_SYSTEM_TRANDOSHA -->
 		</Encyclopedia_Text>
 
 		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
@@ -2533,14 +2533,14 @@
 		<Abilities SubObjectList="Yes">
 			<Reduce_Production_Price_Ability Name="Czerka_Reduce_Production_Price">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Dreshdae_Corvette, Mark_I_Assault_Droid_Company, Mark_III_Assault_Droid_Company, Mark_IV_Assault_Droid_Company, Tank_Droid_Company, VX_AA_Droid_Company, VX_Artillery_Droid_Company, HK_24_Company </Applicable_Unit_Types>
+				<Applicable_Unit_Types> VX_AA_Droid_Company, VX_Artillery_Droid_Company </Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Reduce_Production_Price_Ability>
 
 			<Reduce_Production_Time_Ability Name="Czerka_Production_Time_Bonus">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Dreshdae_Corvette, Mark_I_Assault_Droid_Company, Mark_III_Assault_Droid_Company, Mark_IV_Assault_Droid_Company, Tank_Droid_Company, VX_AA_Droid_Company, VX_Artillery_Droid_Company, HK_24_Company </Applicable_Unit_Types>
+				<Applicable_Unit_Types> VX_AA_Droid_Company, VX_Artillery_Droid_Company </Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>9</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>
